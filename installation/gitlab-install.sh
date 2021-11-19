@@ -14,6 +14,10 @@ sudo docker run --detach \
   gitlab/gitlab-ee:latest
 
 
+# run shell script to install gitlab
+
+$ sh gitlab_install.sh
+
 ## reset git root password in docker container
 
 # inside container shell
