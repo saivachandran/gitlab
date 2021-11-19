@@ -22,6 +22,6 @@ $ sh gitlab_install.sh
 
 # inside container shell
 
-sudo gitlab-rake "gitlab:password:reset[root"
+gitlab-rake "gitlab:password:reset[root"
 
 
